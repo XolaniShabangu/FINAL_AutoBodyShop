@@ -1,0 +1,66 @@
+﻿@model FINAL_AutoBodyShop.Models.Data.CustomerVehicle
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CustomerVehicle</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Car_Model)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Car_Model)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Year)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Year)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Current_Mileage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Current_Mileage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Engine_Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Engine_Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Service_History)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Service_History)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Number_Plate }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

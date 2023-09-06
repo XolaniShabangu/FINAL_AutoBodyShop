@@ -31,6 +31,7 @@ namespace FINAL_AutoBodyShop.Models
         }
 //where you add Tables.
         public virtual DbSet<CustomerVehicle> CustomerVehicle { get; set; }
+        public virtual DbSet<Service> Service { get; set; }
 
         public static ApplicationDbContext Create()
         {

@@ -12,10 +12,10 @@ namespace FINAL_AutoBodyShop.Models.Data
         [Key]
         [Display(Name = "Number Plate")]
         public string Number_Plate{ get; set; }
-        
-        //public int? UserId { get; set; }
-        //[ForeignKey("UserId")]
-        //public virtual ApplicationUser  ApplicationUser { get; set; } 
+
+        //public int? Id { get; set; }
+        //[ForeignKey("Id")]
+        //public virtual ApplicationUser ApplicationUser { get; set; }
 
         [Required]
         [Display(Name = "Vehicle Brand Name")]
